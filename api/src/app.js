@@ -11,7 +11,7 @@ const app = express();
 app.use(morgan("dev"));
 app.use(express.json());
 // MIDDLEWARE: CORS CONFIGURATION
-app.use(cors());
+app.use(cors({ origin: "http://localhost:5173" }));
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
