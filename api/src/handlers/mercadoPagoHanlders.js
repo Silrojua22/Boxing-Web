@@ -1,6 +1,6 @@
 const {
   mercadoPago,
-} = require("../controllers/mercadoPagoController/mercadopago");
+} = require("../controllers/mercadoPagoController/mercadoPago");
 const {
   getPendingOrderByUserEmailController,
 } = require("../controllers/orderController/getPendingOrderByUserEmailController");
