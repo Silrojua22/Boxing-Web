@@ -30,4 +30,4 @@ const mercadoPago = async (pendingOrderId, itemsBody) => {
   }
 };
 
-module.exports = { mercadoPago };
+module.exports = mercadoPago;
